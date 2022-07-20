@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: hsl(204, 43%, 93%);
+}
+
+.main-conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+    font-family: 'Karla', sans-serif;
+}
+
+.rows{
+     box-shadow: 4px 4px 5px 2px rgb(0, 0, 0, 10%);
+     border-radius: .5rem .5rem .5rem .5rem;
+}
+
+.div-join-our{
+    background: #FFF;
+    padding: 3rem;
+    border-radius: .5rem .5rem 0 0;
+}
+
+.row-below{
+    display: flex;
+}
+
+.title-join-our{
+    color: hsl(179, 62%, 43%);
+    font-size: 25px;
+    margin-bottom: 1.5rem;
+}
+
+.sub-title-30-day{
+    color: hsl(71, 73%, 54%);
+    font-size: 20px;
+    margin-bottom: .8rem;
+}
+
+.pair-gain-access{
+    color: hsl(202, 7%, 68%);
+    line-height: 1.5rem;
+}
+
+.div-monthly{
+    color: #FFF;
+    background: hsl(179, 62%, 43%);
+    padding: 3rem;
+    border-radius: 0 0 0 .5rem;
+}
+
+.title-monthly{
+    font-weight: 400;   
+    letter-spacing: -2px;
+    margin-bottom: 1rem;
+    font-size: 22px;
+}
+
+.sub-title-29{
+    font-size: 35px;
+    display: flex;
+    margin-bottom: .5rem;
+}
+
+.span-per-month{
+    color: hsl(0, 0%, 88%, 50%);
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.pair-full-access{
+    margin-bottom: 2rem;
+}
+
+.button-sign-up{
+    background: hsl(71, 73%, 54%);
+    border: none;
+    padding: 1rem 5rem;
+    color: #FFF;
+    border-radius: .3rem;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.button-sign-up:hover{
+    cursor: pointer;
+}
+
+.div-why-us{
+    color: #FFF;
+    background: hsl(179, 41%, 45%);
+    padding: 3rem;
+    border-radius: 0 0 .5rem 0;
+}
+
+.title-why-us{
+    font-weight: 400;   
+    letter-spacing: -2px;
+    margin-bottom: 1rem;
+    font-size: 22px;
+}
+
+.pair-why-us{
+    line-height: 1.5rem;
+    color: hsl(0, 0%, 88%, 100%);
+}
+
+@media only screen and (max-width:690px){
+    .row-below{
+        flex-direction: column;
+    }
+
+    .div-join-our{
+        max-width: 350px;
+    }
+
+    .div-monthly{
+        max-width: 350px;
+        border-radius: 0 0 0 0;
+    }
+
+    .button-sign-up{
+        padding: 1rem 6rem;
+    }
+
+    .div-why-us{
+        max-width: 350px;
+        border-radius: 0 0 .5rem .5rem;
+    }
+}
